@@ -1,0 +1,57 @@
+/* CSS Code goes here */
+
+/* Target the main body */
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: "Roboto", serif;
+    font-style: normal;
+}
+
+/* Header */
+.header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+}
+
+.header-left{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    color: #F9FAF8;
+}
+
+.header-left h1 {
+    font-size: 24px;
+}
+
+.header-right {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+}
+
+.header-right ul {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* Hero Content */
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+
+/* Random Information */

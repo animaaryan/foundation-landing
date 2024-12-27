@@ -53,5 +53,19 @@ a {
     padding-top: 50px;
 }
 
+.hero-square {
+    display: flex;
+    width : 450px;
+    height: 120px;
+    background-color:#E5E7EB;
+    text-align: center;
+    margin-right: 150px;
+}
+
+.hero-right {
+    justify-content: center;
+    text-align: center;
+}
+
 
 /* Random Information */

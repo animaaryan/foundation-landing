@@ -57,19 +57,18 @@ button {
 /* Hero Content */
 .hero {
     display: flex;
+    border: blue solid 2px;
     background-color: #1F2937;
     padding-top: 50px;
     justify-content: center;
-    gap: 220px;
     padding-bottom: 80px;
 }
 
 .hero-left {
     display: flex;
     text-align: left;
-    align-items: center;
-    flex: 0;
-    flex-wrap: wrap;
+    border: blue solid 2px;
+    flex-direction: column;
     color: #F9FAF8;
 }
 
@@ -89,6 +88,7 @@ button {
     background-color: #717172;
     color: #E5E7EB;
     align-content: center;
+    margin-left: 50px;
 }
 
 .hero-right {

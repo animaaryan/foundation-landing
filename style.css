@@ -23,7 +23,7 @@ a {
 
 button {
     display: flex;
-    background-color: #3882F6;
+    background-color: #266929;
     border-radius: 7px;
     font-weight: 500;
     border-style: none;
@@ -34,7 +34,7 @@ button {
 /* Header */
 .header {
     display: flex;
-    background-color: #1F2937;
+    background-color: #1f3720;
     justify-content: space-evenly;
 }
 
@@ -57,7 +57,7 @@ button {
 /* Hero Content */
 .hero {
     display: flex;
-    background-color: #1F2937;
+    background-color: #1f3720;
     padding-top: 50px;
     justify-content: center;
     padding-bottom: 80px;
@@ -125,7 +125,7 @@ button {
 }
 
 .info {
-    width: 200px;
+    width: 260px;
 }
 
 /* Squares */
@@ -134,14 +134,18 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 60px;
 }
 
 .squares {
     background-color: #E5E7EB;
-    width: 200px;
+    width: 250px;
     height: 200px;
-    border: 3px solid #3882F6;
+    border-radius: 20px;
+}
+
+.squares img {
+    border: 3px solid #266929;
     border-radius: 20px;
 }
 
@@ -152,7 +156,6 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0px 190px;
 }
 
 .paras {
@@ -203,14 +206,14 @@ button {
 .action-container {
     display: flex;
     height: 150px;
-    background-color: #3882F6;
+    background-color: #266929;
     border-radius: 7px;
     align-items: center;
     justify-content: center;
     align-content: stretch;
     margin: 0px 300px;
     flex: 1;
-    gap: 250px;
+    gap: 500px;
 }
 
 /* Stuff inside the container */
@@ -218,11 +221,17 @@ button {
 .action-text {
     color:#E5E7EB;
     font-weight: 800;
+
 }
 
 .text-container {
     color:#E5E7EB;
 }
+
+.text-container p {
+    margin-top: -15px; 
+}
+
 
 .text-button {
     border: 1px solid #fff;
@@ -233,7 +242,7 @@ button {
 .footer {
     display: flex;
     flex: 1;
-    background-color: #1F2937;
+    background-color: #1f3720;
     justify-content: center;
     padding: 15px;
 }
